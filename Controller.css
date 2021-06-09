@@ -8,7 +8,7 @@
 }
 
 /*BEGIN Xbox One Controller Styling*/
-.edit .controller.xbox {
+.controller.xbox {
     background: url(baseMod.png);
     height: 630px;
     width: 750px;
@@ -16,7 +16,7 @@
         margin-top: -285px;*/
 }
 
-.edit .xbox .button {
+.xbox .button {
     position: absolute;
     background: url(abxyMod.png);
     width: 48px;
