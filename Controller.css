@@ -1,0 +1,26 @@
+@keyframes colorhue{
+    from {-webkit-filter: hue-rotate(0deg); filter: hue-rotate(0deg);}
+    to {-webkit-filter: hue-rotate(359deg); filter: hue-rotate(359deg);}
+}
+
+.edit {
+    animation: colorhue 1s linear infinite;
+}
+
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+    background: url(baseMod.png);
+    height: 630px;
+    width: 750px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+.xbox .button {
+    position: absolute;
+    background: url(abxyMod.png);
+    width: 48px;
+    height: 48px;
+}
+
+/*END Xbox One Controller Styling*/
