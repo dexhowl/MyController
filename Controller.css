@@ -7,7 +7,6 @@
     animation: colorhue 1s linear infinite;
 }
 
-/*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
     background: url(baseMod.png);
     height: 630px;
